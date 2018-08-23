@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="casa.com.yoquiero.view.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp">
+
+        <ImageView
+            android:id="@+id/ivStart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/main_button"
+            android:elevation="0dp"/>
+
+        <TextView
+            android:id="@+id/tvStart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/main_greeting"
+            android:elevation="10dp"/>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

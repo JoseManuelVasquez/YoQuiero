@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange">#FFA600</color>
+    <color name="brown">#b16c19</color>
+    <color name="blue">#3949ab</color>
+    <color name="blue_dark">#00227b</color>
+    <color name="blue_light">#a06f74dd</color>
+    <color name="green">#00b706</color>
+    <color name="gray">#d9d9d9</color>
+    <color name="gray_dark">#6b6b6b</color>
+    <color name="white">#FAFAFA</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="obfuscated">#d2fafafa</color>
+    <color name="black">#000000</color>
+    <color name="soft_orange">#FAAC58</color>
+</resources>

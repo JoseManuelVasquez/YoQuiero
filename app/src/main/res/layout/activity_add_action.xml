@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="casa.com.yoquiero.view.AddActionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <TextView
+            style="@style/title_style"
+            android:text="@string/add_action_tile" />
+
+        <View
+            style="@style/separator_style"/>
+
+        <TextView
+            style="@style/text_view_style"
+            android:id="@+id/tvAddActionTitle"
+            android:text="@string/add_action_name" />
+
+        <EditText
+            style="@style/edit_text_style"
+            android:id="@+id/etAddActionTitle"
+            android:inputType="textPersonName"/>
+
+        <View
+            style="@style/separator_style"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            style="@style/text_view_style"
+            android:id="@+id/tvAddActionImage"
+            android:text="@string/add_action_image" />
+
+        <Button
+            style="@style/button_style"
+            android:id="@+id/btnAddActionImage"
+            android:text="@string/add_action_image_btn" />
+
+        <TextView
+            style="@style/text_view_style"
+            android:layout_marginTop="0dp"
+            android:textSize="12sp"
+            android:id="@+id/tvShowActionImagePath"
+            android:maxLines="2"
+            android:maxLength="70"/>
+
+        <View
+            style="@style/separator_style"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            style="@style/text_view_style"
+            android:id="@+id/tvAddActionDescription"
+            android:text="@string/add_action_desc" />
+
+        <EditText
+            style="@style/edit_text_style"
+            android:id="@+id/etAddActionDescription"
+            android:layout_height="80dp"
+            android:ems="15"
+            android:lines="2"
+            android:inputType="textMultiLine" />
+
+        <View
+            style="@style/separator_style"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            style="@style/button_style"
+            android:id="@+id/btnSaveData"
+            android:layout_width="250dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/add_action_save_data" />
+
+    </LinearLayout>
+</ScrollView>

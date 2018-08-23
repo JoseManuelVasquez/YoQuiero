@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">YoQuiero</string>
+
+    <!-- MAIN_ACTIVITY Strings -->
+    <string name="main_greeting">Hola</string>
+
+    <!-- WANNA_ACTIVITY Strings -->
+    <string name="wanna_name">Quiero</string>
+    <string name="wanna_joke">Este dinosaurio se comió las actividades, crea una</string>
+
+    <!-- ADD-ACTION_ACTIVITY Strings -->
+    <string name="add_action_tile">Actividad</string>
+    <string name="add_action_name">Nombre de Actividad</string>
+    <string name="add_action_image">Imagen de Actividad</string>
+    <string name="add_action_image_btn">Imagen</string>
+    <string name="add_action_desc">Descripción</string>
+    <string name="add_action_audio">Audio de Actividad</string>
+    <string name="add_action_audio_btn">Audio</string>
+    <string name="add_action_save_data">Agregar Actividad</string>
+
+    <!-- ADD-ACTION_ACTIVITY Strings -->
+    <string name="modify_action_save_data">Modificar</string>
+
+    <!-- ACTION_ACTIVITY Strings -->
+    <string name="action_name">Lugar</string>
+    <string name="action_error_title">Intenta con otro nombre</string>
+    <string name="action_title_dialog">Borrar</string>
+    <string name="action_text_dialog">Estás seguro?</string>
+    <string name="action_yes_dialog">Si</string>
+    <string name="action_no_dialog">No</string>
+
+</resources>
