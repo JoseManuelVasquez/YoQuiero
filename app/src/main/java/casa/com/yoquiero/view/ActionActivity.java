@@ -199,7 +199,10 @@ public class ActionActivity extends AppCompatActivity implements IAction.View, V
                 return true;
             case MotionEvent.ACTION_UP:
                 Tools.playAnimation(view, R.drawable.mic_button_reverse, this);
-                presenter.stopRecordingAudio();
+                if((motionEvent.getEventTime() - motionEvent.getDownTime()) > 500)
+                    presenter.stopRecordingAudio();
+                else
+                    Toast.makeText(this, getString(R.string.action_recording_error), Toast.LENGTH_SHORT).show();
                 return true;
         }
         return false;

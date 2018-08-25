@@ -28,5 +28,6 @@
     <string name="action_text_dialog">Estás seguro?</string>
     <string name="action_yes_dialog">Si</string>
     <string name="action_no_dialog">No</string>
+    <string name="action_recording_error">Mantén el botón presionado</string>
 
 </resources>
